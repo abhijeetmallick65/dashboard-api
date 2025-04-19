@@ -22,5 +22,5 @@ server.use('/sections', nestedRouter);
 
 const port = process.env.PORT || 3001;
 server.listen(port, () => {
-  console.log(`✅ JSON Server running on port ${port}`);
+  console.log(`JSON Server running on port ${port}`);
 });
